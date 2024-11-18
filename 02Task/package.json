@@ -1,0 +1,14 @@
+{
+  "name": "02task",
+  "version": "1.0.0",
+  "description": "creating server and get request",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
