@@ -34,7 +34,7 @@ app.post("/user/create", (req,res)=>{
     }
     users.push(user);
 
-    fs.writeFileSync(filePath, JSON.stringify(users));
+    fs.writeFileSync(filePath, JSON.stringify(users, null,2));
 
     return res.status(200).json({message : "Data Insertion Successfully", user});
 })
